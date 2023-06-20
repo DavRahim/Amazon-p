@@ -75,6 +75,7 @@ const Shop = () => {
             saveCart.push(addProduct);
           }
           console.log("aa", addProduct);
+          console.log(addProduct);
         }
         //step 5: save the cart
         setCart(saveCart);
